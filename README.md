@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi, I'm Abdukhaxxoroff! 👋
 
-<!--
-**abdukhaxxoroff/abdukhaxxoroff** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+I'm a Flutter developer passionate about building mobile apps. I specialize in creating apps with **Flutter** and **Dart** and am constantly exploring new technologies.
 
-Here are some ideas to get you started:
+## My GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdukhaxxoroff&show_icons=true&hide=prs&count_private=true)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Top Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdukhaxxoroff&layout=compact)
+
+## My GitHub Streak
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=abdukhaxxoroff)
+
+## My Recent Activity
+![GitHub Activity](https://activity-graph.herokuapp.com/graph?username=abdukhaxxoroff&bg_color=000000&color=FFFFFF&line=FFFFFF&point=FFFFFF)
+
+## Featured Repositories
+[![My Flutter App](https://github-readme-stats.vercel.app/api/pin/?username=abdukhaxxoroff&repo=my-flutter-app)](https://github.com/abdukhaxxoroff/my-flutter-app)
