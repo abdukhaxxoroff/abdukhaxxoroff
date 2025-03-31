@@ -11,6 +11,3 @@ I'm a Flutter developer passionate about building mobile apps. I specialize in c
 
 ## My GitHub Streak
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=abdukhaxxoroff)
-
-## My GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=abdukhaxxoroff&show_icons=true)
