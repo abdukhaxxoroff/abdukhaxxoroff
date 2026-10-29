@@ -10,10 +10,12 @@
   <img alt="Impact, experience and shipped apps from my resume" src="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/resume_light.webp">
 </picture>
 
+<!-- Snake hidden for now; the workflow still updates dist/. Remove this comment wrapper to show it again.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/dist/snake-dark.svg">
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/dist/snake-light.svg">
 </picture>
+-->
 
 [![my nomling](https://nomlings.cc/badge/abdukhaxxoroff?color=%233fb950&v=3)](https://nomlings.cc/badge)
 
