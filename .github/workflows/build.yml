@@ -38,10 +38,18 @@ jobs:
       - name: Convert SVGs to animated WebP
         run: python scripts/convert.py
 
+      - name: Generate contribution snake
+        uses: Platane/snk@v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#3fb950
+            dist/snake-light.svg?palette=github-light&color_snake=#1a7f37
+
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg dark_mode.webp light_mode.webp
+          git add dark_mode.svg light_mode.svg dark_mode.webp light_mode.webp dist/
           git diff --cached --quiet || git commit -m "bot: update profile card $(date -u +%Y-%m-%d)"
           git push
