@@ -2,7 +2,7 @@ name: Profile card
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "17 * * * *" # hourly; off the top of the hour, when GitHub's scheduler is busiest
   workflow_dispatch:
   push:
     branches: [main]
