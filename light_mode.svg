@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="716" viewBox="0 0 1188 716"
+<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="716" viewBox="0 0 1188 716" data-cycle="6000"
      font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16px">
 <style>
 text, tspan { white-space: pre; }
@@ -81,7 +81,7 @@ text, tspan { white-space: pre; }
 <tspan x="600" y="400.0" class="dim">. </tspan><tspan class="key">Timezone</tspan>:<tspan class="dim"> .................................. </tspan><tspan class="value">UZT (UTC+5)</tspan>
 <tspan x="600" y="428.0" class="dim">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="dim"> ...................... </tspan><a href="https://github.com/abdukhaxxoroff" target="_blank"><tspan class="value">github.com/abdukhaxxoroff</tspan></a>
 <tspan x="600" y="470.0">─ GitHub Stats ───────────────────────────────────────────</tspan>
-<tspan x="600" y="498.0" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> .................. </tspan><tspan class="value">24 {Contributed: 0} | Stars: 8</tspan>
+<tspan x="600" y="498.0" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> ................. </tspan><tspan class="value">41 {Contributed: 2} | Stars: 13</tspan>
 <tspan x="600" y="526.0" class="dim">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dim"> ............................ </tspan><tspan class="value">354 | Followers: 6</tspan>
 <tspan x="600" y="554.0" class="dim">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dim"> ..................................... </tspan><tspan class="value">380</tspan>
 <tspan x="600" y="596.0" class="dim">// Talk is cheap. Show me the code.</tspan>

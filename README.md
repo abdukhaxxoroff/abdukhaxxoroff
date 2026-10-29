@@ -6,6 +6,11 @@
 </a>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/resume_dark.webp">
+  <img alt="Impact, experience and shipped apps from my resume" src="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/resume_light.webp">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/dist/snake-dark.svg">
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/abdukhaxxoroff/abdukhaxxoroff/main/dist/snake-light.svg">
 </picture>

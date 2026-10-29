@@ -8,14 +8,18 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-SVGS = [ROOT / "dark_mode.svg", ROOT / "light_mode.svg"]
-CYCLE_MS = 6000  # matches CYCLE in build.py
+SVGS = [ROOT / name for name in ("dark_mode.svg", "light_mode.svg", "resume_dark.svg", "resume_light.svg")]
 FRAME_MS = 50
 
 
-def size(svg):
+def attrs(svg):
+    """Width, height and loop length (data-cycle, in ms) from the root <svg> tag."""
     head = svg.read_text(encoding="utf-8")[:600]
-    return int(re.search(r'width="(\d+)"', head)[1]), int(re.search(r'height="(\d+)"', head)[1])
+
+    def number(name):
+        return int(re.search(rf'{name}="(\d+)"', head)[1])
+
+    return number("width"), number("height"), number("data-cycle")
 
 
 def main():
@@ -23,13 +27,13 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch(channel=channel)
         for svg in SVGS:
-            width, height = size(svg)
+            width, height, cycle_ms = attrs(svg)
             page = browser.new_page(viewport={"width": width, "height": height})
             page.goto(svg.as_uri(), wait_until="networkidle")
             page.evaluate("document.documentElement.pauseAnimations()")
 
             frames = []
-            for i in range(CYCLE_MS // FRAME_MS):
+            for i in range(cycle_ms // FRAME_MS):
                 page.evaluate(
                     """async (t) => {
                         document.documentElement.setCurrentTime(t);

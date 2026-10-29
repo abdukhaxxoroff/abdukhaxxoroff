@@ -250,7 +250,7 @@ def render(theme_name, stats, lines):
     cursor_x = PANEL_X + (len(QUOTE) + 1) * CHAR_W
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}"
+<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" data-cycle="{int(CYCLE[:-1]) * 1000}"
      font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="{FONT}px">
 <style>
 text, tspan {{ white-space: pre; }}
