@@ -264,7 +264,7 @@ text, tspan {{ white-space: pre; }}
     <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="{width}" height="{height}" rx="12" fill="{theme["bg"]}"/>
+<rect width="{width}" height="{height}" fill="{theme["bg"]}"/>
 
 {portrait(lines, portrait_top, theme)}
 {eyes(portrait_top, theme)}

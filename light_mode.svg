@@ -13,7 +13,7 @@ text, tspan { white-space: pre; }
     <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="1188" height="716" rx="12" fill="#f6f8fa"/>
+<rect width="1188" height="716" fill="#f6f8fa"/>
 
 <g fill="#24292f" font-size="16px">
 <text x="30.0 39.6 49.3 58.9 68.5 78.2 87.8 97.4 107.0 116.7 126.3 135.9 145.6 155.2 164.8 174.5 184.1 193.7 203.3 213.0 222.6 232.2 241.9 251.5 261.1 270.8 280.4 290.0 299.6 309.3 318.9" y="46">                        ░▒▓▓▓▒▒</text>
@@ -81,7 +81,7 @@ text, tspan { white-space: pre; }
 <tspan x="600" y="400.0" class="dim">. </tspan><tspan class="key">Timezone</tspan>:<tspan class="dim"> .................................. </tspan><tspan class="value">UZT (UTC+5)</tspan>
 <tspan x="600" y="428.0" class="dim">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="dim"> ...................... </tspan><a href="https://github.com/abdukhaxxoroff" target="_blank"><tspan class="value">github.com/abdukhaxxoroff</tspan></a>
 <tspan x="600" y="470.0">─ GitHub Stats ───────────────────────────────────────────</tspan>
-<tspan x="600" y="498.0" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> .................. </tspan><tspan class="value">24 {Contributed: 0} | Stars: 8</tspan>
+<tspan x="600" y="498.0" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> ................. </tspan><tspan class="value">41 {Contributed: 2} | Stars: 13</tspan>
 <tspan x="600" y="526.0" class="dim">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dim"> ............................ </tspan><tspan class="value">353 | Followers: 6</tspan>
 <tspan x="600" y="554.0" class="dim">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dim"> ..................................... </tspan><tspan class="value">379</tspan>
 <tspan x="600" y="596.0" class="dim">// Talk is cheap. Show me the code.</tspan>
