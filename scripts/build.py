@@ -29,7 +29,7 @@ CONTACT = [
     ("Timezone", "UZT (UTC+5)", None),
     ("GitHub", "github.com/abdukhaxxoroff", "https://github.com/abdukhaxxoroff"),
 ]
-QUOTE = "// Talk is cheap. Show me the code."
+QUOTE = "// My Lord, increase me in knowledge. - Quran 20:114"
 
 # Where the eyes sit inside the hood in assets/portrait.txt: (row, left column, right column), 0-based.
 EYES = (11, 21, 32)

@@ -81,13 +81,13 @@ text, tspan { white-space: pre; }
 <tspan x="600" y="400.0" class="dim">. </tspan><tspan class="key">Timezone</tspan>:<tspan class="dim"> .................................. </tspan><tspan class="value">UZT (UTC+5)</tspan>
 <tspan x="600" y="428.0" class="dim">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="dim"> ...................... </tspan><a href="https://github.com/abdukhaxxoroff" target="_blank"><tspan class="value">github.com/abdukhaxxoroff</tspan></a>
 <tspan x="600" y="470.0">─ GitHub Stats ───────────────────────────────────────────</tspan>
-<tspan x="600" y="498.0" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> .................. </tspan><tspan class="value">24 {Contributed: 0} | Stars: 8</tspan>
-<tspan x="600" y="526.0" class="dim">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dim"> ............................ </tspan><tspan class="value">356 | Followers: 6</tspan>
-<tspan x="600" y="554.0" class="dim">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dim"> ..................................... </tspan><tspan class="value">382</tspan>
-<tspan x="600" y="596.0" class="dim">// Talk is cheap. Show me the code.</tspan>
+<tspan x="600" y="498.0" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> ................. </tspan><tspan class="value">41 {Contributed: 2} | Stars: 13</tspan>
+<tspan x="600" y="526.0" class="dim">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dim"> ............................ </tspan><tspan class="value">358 | Followers: 6</tspan>
+<tspan x="600" y="554.0" class="dim">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dim"> ..................................... </tspan><tspan class="value">384</tspan>
+<tspan x="600" y="596.0" class="dim">// My Lord, increase me in knowledge. - Quran 20:114</tspan>
 </text>
 
-<rect x="946.7" y="582.0" width="9.6" height="18" fill="#c9d1d9">
+<rect x="1110.4" y="582.0" width="9.6" height="18" fill="#c9d1d9">
   <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
 </rect>
 </svg>
